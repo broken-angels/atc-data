@@ -1,0 +1,21 @@
+Clone this repo and:
+
+mongorestore -d <db> -c <collection> <results_d13.bson>
+
+Notable document fields:
+
+repo github repo
+area field of research
+d0 elpased
+d1 user cpu
+d2 kernel cpu
+d3 network pkts
+d4 network bytes
+d5 disk ios
+d6 disk bytes
+d7 git occupied disk space
+d8 git apparent disk space
+d9 folder occupied disk space
+d10 folder apparent disk space
+d11 peak mem
+d12 number of git submodules
